@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Payment Form</title>
+    </head>
+    <body>
+        <h1>Payment Form</h1>
+        <p>Required fields are marked by <u>*</u></p>
+        <h3>Contact Information</h3>
+        <form>
+            <div>
+                <label for="Mr.">Mr.</label>
+                <input type="radio" name="mr" id="mr">
+            </div>
+            <div>
+                <label for="Ms.">Ms.</label>
+                <input type="radio" name="ms" id="ms">
+            </div>
+            <div>
+                <label for="Mrs.">Mrs.</label>
+                <input type="radio" name="mrs" id="mrs">
+            </div>  
+            <div>
+                <label for="Mx.">Mx.</label>
+                <input type="radio" name="mx" id="mx">
+            </div> 
+            <p>
+                <label for="given-name">Name:*: </label>
+                <input type="text" name="given-name" id="given-name">
+            </p> 
+            <p>
+                <label for="email">Email:* </label>
+                <input type="text" name="email" id="email">
+            </p>
+        </form>
+        <h3>Payment Information</h3>
+        <form>
+            <div>
+                <label for="card type">Card Type:</label>
+                <select id="cardtype">
+                    <option value="Visa">Visa</option>
+                    <option value="MasterCard">MasterCard</option>
+                    <option value="American Express">American Express</option>
+                    <option value="Discover">Discover</option>
+                </select>
+            </div> 
+            <p>
+                <label for="cardNumber">Card Number:* </label>
+                <input type="text" name="cardNumber" id="cardNumber">
+            </p> 
+            <p>
+                <label for="expirationDate">Expiration Date (MM/YY):* </label>
+                <input type="text" name="expirationDate" id="expirationDate">
+            </p>
+            <input type="submit" value="Submit Payment">
+        </form>
+    </body>
+</html>
