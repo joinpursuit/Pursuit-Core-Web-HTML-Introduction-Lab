@@ -1,0 +1,50 @@
+<!<!DOCTYPE html>
+  <html>
+    <body>
+      <h1>Payment Form</h1>
+        <p>Required fields are marked by <u>*</u></p>
+
+      <h3>Contact Information</h3>
+        <input type="radio" name="prefix" value=" mr."> Mr.<br>
+        <input type="radio" name="prefix" value="ms."> Ms.<br>
+        <input type="radio" name="prefix" value="mrs."> Mrs.<br>
+        <input type="radio" name="prefix" value="mx."> Mx.<br>
+
+
+        <form>
+          <div>
+            <label for = "name"> Name:* </label>
+            <input type = "text" name = "name" id = "name">
+          </div>
+          <div>
+            <label for = "email"> Email:* </label>
+            <input type= "text" name ="email" id = "email">
+          </div>
+        </form>
+
+      <h3>Payment Information</h3>
+        <form>
+          <div>
+            <label for = "cardtype"> Card Type: </label>
+            <!-- <input type = "text" cardtype = "cardtype" id = "cardtype" placeholder=""> -->
+            <select name= "card types">
+              <option value="visa">Visa</option>
+              <option value="discover">Discover</option>
+              <option value="mastercard">MasterCard</option>
+              <option value="americanexpress">American Express</option>
+              <option value="paypal">Paypal</option>
+            </select>
+          </div>
+          <div>
+            <label for = "cardnumber"> Card Number:* </label>
+            <input type = "text" cardnumber = "cardnumber" id = "cardnumber" pattern = "[0-9]*" maxlength = "16">
+          </div>
+          <div>
+            <label for = "expirationdate"> Expiration Date:(MM/YY)* </label>
+            <input type = "month" expirationdate = "monthandyear" id = "expirationdate">
+          </div>
+          <div>
+            <input type= "submit" value = "submit value">
+          </div>
+    </body>
+  </html>
