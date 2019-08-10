@@ -4,18 +4,16 @@
 <p>Required fields are marked by <u>*</u></p>
 <h2>Contact Information</h2>
 <form>
-<p><input type= "radio" name = "suffix">Mr.</input></p>
-<p><input type= "radio" name = "suffix">Ms.</input></p>
-<p><input type= "radio" name = "suffix">Mrs.</input></p>
-<p><input type= "radio" name = "suffix">Mx.</input></p>
-<p>Name:*<input type = "text" /></p>
-<p>Email:*<input type = "text" /></p>
-</form>
+<div><input type= "radio" name = "suffix" id = "1"><label for = "1">Mr.</label></input></div>
+<div><input type= "radio" name = "suffix" id = "2"><label for = "2">Ms.</label></input></div>
+<div><input type= "radio" name = "suffix" id = "3"><label for = "3">Mrs.</label></input></div>
+<div><input type= "radio" name = "suffix" id = "4"><label for = "4">Mx.</label></input></div>
+<p><label for = "name">Name:*</label><input type = "text" id = "name" name = "name"/></p>
+<p><label for = "email">Email:*</label><input type = "text" id = "email" "text" name = "email"/></p>
 <h2>Payment Information</h2>
-<form>
-<p>Card Type:<select><option>Visa</option><option>Master</option></select></p>
-<p>Card Number:*<input type = "text" /></p>
-<p>Expiration Date(MM/YY):*<input type = "text" /></p>
-<button type = 'submit'>Submit Payment</button>
+<p><label for= "type">Card Type:</label><select id = "type" name = "type"><option>Visa</option><option>Master</option></select></p>
+<p><label for = "number">Card Number:*</label><input type = "text" id = "number" name = "number"/></p>
+<p><label for = "expDate">Expiration Date(MM/YY):*</label><input type = "text" id = "expDate" name = "expDate" /> </p>
+<input type = 'submit' value = "Submit Payment"></input>
 </form>
 </html>
