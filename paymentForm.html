@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Payment form</title>
+    </head>
+
+    <body>
+        <h1>Payment Form</h1>
+        <p>Required fields are marked by <u>*</u></p>
+
+        <h2>Contact Information</h2>
+        <form>
+            <div>
+                <input Type="radio" name="prefix" value="mr." />Mr.<br>
+                <input Type="radio" name="prefix" value="ms." />Ms.<br>
+                <input Type="radio" name="prefix" value="mrs." />Mrs<br>
+                <input Type="radio" name="prefix" value="mx." />Mx.<br>
+            </div>
+            <p>
+                <label for="name">Name: *</label>
+                <input type = "text" name = "name" id = "name" placeholder="Your full name please" size = 35>
+            </p>
+            <p>
+                <label for="email">Email: *</label>
+                <input type = "text" name = "email" id = "email" placeholder="name@example.com" size = 35>
+            </p>
+
+            <h2>Payment Information</h2>
+            <p>
+                Card type: 
+                <select>
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">MasterCard</option>
+                    <option value="americanexpress">AmericanExpress</option>
+                    <option value="discover">Discover</option>
+                </select>
+            </p>
+            <P>
+                <label for="cardNumber">Card Number: *</label>
+                <input type = "text" name = "cardNumber" id = "cardNumber" size = 35>
+            </P>
+            <P>
+                <label for="expirationDate">Expiration Date (MM/YY): *</label>
+                <input type = "text" name = "expirationDate" id = "expirationDate" size = 35>
+            </P>
+            <p>
+                <input type='submit' value="Submit Payment">
+            </p>
+        </form>
+    </body>
+</html>
