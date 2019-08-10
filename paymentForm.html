@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+    <head>
+        <title>User Payment Form</title>
+    </head>
+    <body>
+        <h1>Payment Form</h1>
+
+        <p>Required fields are marked by *</p>
+
+        <h2>Contact Information</h2>
+    <div>
+        <input type="radio" name="Mr." id="Mr.">
+        <label for="Mr.">Mr. </label><br>
+
+        <input type="radio" name="Ms." id="Ms.">
+        <label for="Ms.">Ms. </label><br>
+        
+        <input type="radio" name="Mrs." id="Mrs.">
+        <label for="Mrs.">Mrs. </label><br>
+        
+        <input type="radio" name="Mx." id="Mx.">
+        <label for="Mx.">Mx. </label>
+    </div>
+    <div>
+        <p>
+        <label for="name">Name:* </label>
+        <input name="name" id="name"></input>
+        </p>
+        <p>
+        <label for="email">Email:* </label>
+        <input name="email" id="email"></input>
+        </p>
+    </div>
+
+    <h2>Payment Information</h2>
+    <div>
+            <label for="card">Card Type: </label>
+            <select>
+                    <option value="visa">Visa</option>
+                    <option value="master">Master</option>
+                    <option value="piza">Piza</option>
+                    <option value="momo">Momo</option>
+            </select>
+
+            <p>
+            <label for="cardNum">Card Number:* </label>
+            <input name="cardNum" id="cardNum"></input>
+            </p>
+
+            <p>
+            <label for="cardNum">Expiration Date(MM/YY):* </label>
+            <input name="cardNum" id="cardNum"></input>
+            </p>
+    </div>
+    <div>
+            <input type="submit" name="button" id="button" value="Submit Payment">
+    </div>
+    </body>
+</html>
