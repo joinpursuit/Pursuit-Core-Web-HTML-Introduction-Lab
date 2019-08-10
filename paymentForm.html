@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Payment Form</title>
+  </head>
+  <body>
+<h1>Payment Form</h1>
+<p>Required fields are marked by *</p>
+<h2>Contact Information</h2>
+<form>
+  <div>
+    <input type="radio" name="Prefix" id="Mr">
+    <label for="Mr">Mr.</label>
+    </div>
+    <div>
+      <input type="radio" name="Prefix" id="Ms">
+      <label for="Ms">Ms.</label>
+      </div>
+      <div>
+      <input type="radio" name="Prefix" id="Mrs">
+      <label for="Mrs">Mrs.</label>
+        </div>
+      <div>
+      <input type="radio" name="Prefix" id="Mx">
+      <label for="Mx">Mx.</label>
+      </div>
+    <br>
+  <div>
+    <label for="name"> Name:* </label>
+    <input type="text" name="name" id="name">
+  </div>
+  <br>
+  <div>
+    <label for="email"> Email:* </label>
+    <input type="text" name="email" id="email">
+  </div>
+  </form>
+<h2>Payment Information</h2>
+<form>
+  <div>
+    <label for="cardtype">Card Type: </label>
+    <select name="cardtype">
+      <option value="visa">Visa</option>
+      <option value="discover">Discover</option>
+      <option value="amex">Amex</option>
+      <option value="mastercard">MasterCard</option>
+      <option value="paypal">PayPal</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      <label for="cardnumber">Card Number:*</label>
+      <input type="text" name="cardnumber" id="cardnumber">
+      </div>
+      <br>
+  <div>
+    <label for="expirationdate">Expiration Date (MM/YY):*</label>
+    <input type="text" name="expirationdate" id="expirationdate">
+    </div>
+    <br>
+    <input type="submit" value="Submit Payment">
+</form>
+</body>
+</html>
