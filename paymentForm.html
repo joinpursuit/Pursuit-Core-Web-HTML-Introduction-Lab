@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment Form</title>
+</head>
+<body>
+	<form id ='payment-form'>
+		<h1>Payment Form</h1>
+		<p>Required fields are marked by *</p>
+		<h2>Contact Information</h2>
+		<label for = 'Mr.'>
+			<input type='radio'name='title'value='Mr.' id ='Mr.'>
+			Mr.
+		</label><br>
+		<label for = 'Ms.'>
+			<input type='radio'name='title'value='Ms.' id ='Ms.'>
+			Ms.
+		</label><br>
+		<label for = 'Mrs.'>
+			<input type='radio'name='title'value='Mrs.' id ='Mrs.'>
+			Mrs.
+		</label><br>
+		<label for = 'Mx.'>
+			<input type='radio'name='title'value='Mx.' id ='Mx.'>
+			Mx.
+		</label><br><br>
+		<label for = 'name'>
+			Name:*
+			<input type = text' id='name'>
+		</label><br><br>	
+		<label for = 'email'>
+			Email:*
+			<input type = 'email' id='email'>
+		</label>
+		<h2>Payment Information</h2>
+		<label for = 'card-type'>
+			Card Type:*
+			<select  id='card-type'>
+				<option value='Visa'>Visa</option>
+				<option value = "Mastercard">Mastercard</option>
+				<option value = 'Discover'>Discover</option>
+			</select>
+		</label><br><br>
+		<label for ='card-number'>
+			Card Number:*
+			<input type= 'text' id='card-number'>
+		</label><br><br>
+		<label for ='card-exp'>
+			Expiration Date(MM/YY).:*
+			<input type= 'text' id='card-exp'>
+		</label><br><br>
+		<button type ='submit' form='payment-form'>Submit Payment</button>
+		
+	</form>
+</body>
+</html>
