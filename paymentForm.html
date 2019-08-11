@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Payment Form </title>
+  </head>
+
+  <body>
+    <h1> Payment Form </h1>
+    <p> Required fields are marked by <u> * </u>
+
+    <h3> Contact Information </h3>
+
+    <form>
+      <input type = "radio" name = "salutations" value = "Mr."> Mr. <br>
+      <input type = "radio" name = "salutations" value = "Ms."> Ms. <br>
+      <input type = "radio" name = "salutations" value = "Mrs."> Mrs. <br>
+      <input type = "radio" name = "salutations" value = "Mx"> Mx.
+    </form>
+
+    <br>
+
+    <form>
+      <div>
+      <label for = "name"> Name:* </label>
+      <input type = "text" name = "name" id = "name" required>
+      </div>
+
+      <br>
+
+      <div>
+      <label for = "email"> Email:* </label>
+      <input type = "text" name = "email" id = "email" required>
+      </div>
+
+    <h3> Payment Information </h3>
+
+      <div>
+      <label> Card Type: </label>
+      <select name = "cardtype" >
+      <option value = ""> Please choose </option>
+      <option value = "Visa"> Visa </option>
+      <option value = "Amex"> American Express </option>
+      <option value = "MasterCard"> MasterCard </option>
+      </select>
+      </div>
+
+    <br>
+
+      <div>
+      <label for = "cardnumber"> Card Number:* </label>
+      <input type = "text" name = "cardnumber" id = "cardnumber" required>
+      </div>
+
+    <br>
+
+      <div>
+      <label for = "expiration"> Expiration Date (MM/YY):* </label>
+      <select required name = "month">
+        <option value = ""> MM </option>
+        <option> 01 </option>
+        <option> 02 </option>
+        <option> 03 </option>
+        <option> 04 </option>
+        <option> 05 </option>
+        <option> 06</option>
+        <option> 07 </option>
+        <option> 08 </option>
+        <option> 09 </option>
+        <option> 10 </option>
+        <option> 11 </option>
+        <option> 12 </option>
+        </select>
+
+        <select required name = "year">
+          <option value = ""> YY </option>
+            <option> 19 </option>
+            <option> 20 </option>
+            <option> 21 </option>
+            <option> 22 </option>
+            <option> 23 </option>
+            <option> 24 </option>
+            <option> 25 </option>
+            <option> 26 </option>
+            <option> 27 </option>
+            <option> 28 </option>
+            <option> 29 </option>
+            <option> 30 </option>
+       </select>
+      </div>
+
+    <br>
+
+      <input type = "submit" value = "Submit Payment">
+    </form>
+
+
+  </body>
+</html>
