@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+    div {
+
+    border: 15px solid gold;
+    margins: 5px
+
+  }
+  </style>
+  <title> Payment Form </title>
+<head>
+<body>
+
+<h1> Payment Form</h1>
+<p>Required fields are marked by _* </p>
+
+<h2> Contact Information</h2>
+<form>
+  <div>
+    <input type="radio" name="mr." id="mr.">
+    <label for="mr.">Mr.</label>
+  </div>
+  <div>
+    <input type="radio" name="ms." id="ms.">
+    <label for="ms.">Ms.</label>
+  </div>
+  <div>
+    <input type="radio" name="mrs." id="mrs.">
+    <label for="mrs.">Mrs.</label>
+  </div>
+  <div>
+    <input type="radio" name="mx." id="mx.">
+    <label for="mx.">Mx.</label>
+  </div>
+  <div>
+<p>  <label for="name"> Name:* </label>
+  <input type="text" name="name" id="name" ></P>
+
+  </div>
+  <div>
+  <p> <label for="email">Email:</label>
+  <input type="text" name="email" id="email"></p>
+  </div>
+
+  <h2> Payment Information</h2>
+<form>
+  <label for="card number">Card Number:</label>
+    <input type="text" name="card number" id="card number" >
+    <div>
+    <p> <label for="expiration date">Expiration Date(MM/YY):</label>
+      <input type="text" name="expiration date" id="expiration date" ></p>
+    </div>
+  <div>
+  <p> <label for="card type">Card Type:</label>
+<select name="card">
+      <option value="visa">Visa</option>
+      <option value="mastercard">Master Card</option>
+      <option value="americanexpress">American Express</option></p>
+  </div>
+  <div>
+<p><input type="submit" value="Submit Payment"> </p>
+</div>
+</form>
+
+</body>
+</html>
