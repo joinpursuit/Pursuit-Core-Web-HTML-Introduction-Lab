@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Karen's Payment Form</title>
+</head>
+<body>
+  <h1>Payment Form</h1>
+  <p>
+    Required fields are marked by <u>*</u>
+  </p>
+
+  <form>
+    <h2>Contact Information</h2>
+    <p><input type="radio" name="button" value="Mr."> Mr.<br>
+     <input type="radio" name="button" value="Mrs."> Mrs.<br>
+     <input type="radio" name="button" value="Ms."> Ms. <br>
+     <input type="radio" name="button" value="Mx." > Mx.<br>
+    <div>
+      <label for="name"> Name:<sup>*</sup></label>
+      <input type="text" name="name" id="name" placeholder="Jane Doe" size="30">
+    </div>
+
+    <div><br>
+      <label for="email">Email:<sup>*</sup></label>
+      <input type="text" name="email" size="30">
+    </div>
+    <h2>Payment Information</h2>
+    <div>
+    <label for="cardtype">Card Type:</label>
+    <select name="cardtype" size="1">
+      <option value="Visa">Visa</option>
+      <option value="MasterCard">MasterCard</option>
+      <option value="AMEX">AMEX</option>
+    </select>
+    </div>
+
+    <div><br>
+      <label for="cardnumber">Card Number:<sup>*</sup></label>
+      <input type="text" name="cardnumber" id="cardnumber" maxlength="20">
+    </div>
+
+    <div><br>
+      <label for="expirationdate">Expiration Date(MM/YY):<sup>*</sup></label>
+      <input type="text" name="expirationdate" id="expirationdate" placeholder="01/19">
+    </div>
+    <div><br>
+      <input type="submit" value="Submit Payment">
+    </div>
+  </form>
+</body>
+</html>
