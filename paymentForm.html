@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pay Here</title>
+  </head>
+  <body>
+    <h1>Payment Form</h1>
+    <p>Required fields are marked by * </p>
+    <img src="https://media.giphy.com/media/z9AUvhAEiXOqA/giphy.gif" alt="This is fine gif">
+    <img src="https://media0.giphy.com/media/vFyaagWgXDjA4/giphy.gif" alt="Guy With No money in the bank"
+    align = right
+    height = '280pix'>
+  </body>
+
+    <h2>Contact Information</h2>
+    <form>
+      <label for="Mr.">Mr.</label>
+      <input type="radio"; name="Prefix" value ="Mr."> <br>
+
+      <label for="Mrs.">Mrs.</label>
+      <input type="radio"; name="Prefix" value ="Mrs."> <br>
+
+      <label for="Ms.">Ms.</label>
+      <input type="radio" name="Prefix" value="Ms."><br>
+
+      <label for="Mx.">Mx.</label>
+      <input type="radio" name="Prefix" value="Mx."><br>
+
+      <p><label for="Name">Name:* </label>
+      <input type="text" name="Name" id = "Name"> <br>
+
+      <label for="email">E-mail:* </label>
+      <input type="email" name="email" id = "email"> <br></p>
+
+      <h2>Payment Information</h2>
+      <label for="cardtype">Card Type:</label>
+      <select name="cardtype">
+        <option value="Visa">Visa</option>
+        <option value="MasterCard">MasterCard</option>
+        <option value="AMEX">AMEX</option>
+        <option value="Discover">Discover</option>
+        <option value="Paypal">Paypal</option>
+      </select>
+      <br>
+
+      <label for="card #">Card Number: *</label>
+      <input type="text" name="card #"> <br>
+
+      <label for="exp date">Expriration Date:*</label>
+      <input type="month" name="exp date" placeholder="MM/YY">
+
+      <p><input type="submit" value="Submit"></p>
+
+    </form>
+</html>
