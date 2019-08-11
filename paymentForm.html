@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Payment Form</title>
+  </head>
+  <body>
+    <h1>Payment Form</h1>
+    <p1>Required fields are markes by *</p1>
+
+    <h2>Contact Information:</h2>
+      <form>
+
+
+      <input type="radio" id="mr." name="gender" value="mr." />
+      <label for ="mr.">Mr.</label>
+      <br>
+      <input type="radio" id="ms." name="gender" value="ms." />
+      <label for ="ms.">Ms.</label>
+      <br>
+      <input type="radio" id="mrs." name="gender" value="mrs." />
+      <label for ="mrs.">Mrs.</label>
+      <br>
+      <input type="radio" id="mx." name="gender" value="mx." />
+      <label for ="mx.">Mx.</label>
+      <div>
+      <br>
+
+      <label for="name">Name:*</label>
+      <input required name="name" name="name" id="name" required> </input>
+      </div>
+      <div>
+        <br>
+
+        <label for="email">Email:*</label>
+        <input type = "text" name= "email" id= "email" required />
+        </div>
+
+
+<h2>Payment Information</h2>
+  <form>
+    <div>
+
+
+<label for= "cardtype">Card Type</label>
+    <select name="cardtype">
+      <option value="Visa">Visa</option>
+      <option value="MasterCard">MasterCard</option>
+      <option value="discover">Discover</option>
+      <option value="paypal">Paypal</option>
+    </select>
+
+</div>
+  <div>
+    <br>
+  <label for="cardnumber">Card Number:*</label>
+  <input type= "cardnumber" name= "cardnumber" id= "cardnumber" required= "required"/>
+</div>
+  <div>
+  <br>
+    <label type= "expirationdate">Expiration Date(MM/YY):*</label>
+    <input type= "expirationdate" name= "expirationdate" id= "expirationdate" maxlength="5" required= "required"<br>
+</div>
+<div>
+<br>
+    <input type="submit" value= "Submit Payment"/>
+</form>
+
+
+
+    </body>
+</html>
