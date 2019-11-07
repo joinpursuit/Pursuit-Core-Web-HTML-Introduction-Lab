@@ -10,11 +10,26 @@
     <p> Required field are marked by <u> *_</u> </p>
     <h3> Contact Information</h3>
     <form>
-        <input type="radio" name="Mr" value="Mr"> Mr.<br>
-        <input type="radio" name="Ms" value="Mr"> Ms.<br>
+        <input type="radio" name="Mr." value="Mr"> Mr.<br>
+        <input type="radio" name="Ms." value="Mr"> Ms.<br>
         <input type="radio" name="Mrs." value="Mr">Mrs.<br>
-        <input type="radio" name="Mx" value="Mr"> Mx.<br>
-        <input type="text" name="names">
+        <input type="radio" name="Mx." value="Mr."> Mx.
 
+
+        <p>Name:* <input type="text" name="names"> </p>
+        <p>Email:* <input type="text" name="names"> </p>
+
+        <h3>Payment Information</h3>
+
+        <p>Card Type: <select>
+                <option value="Visa">Visa</option>
+                <option value="Mastercard">Mastercard</option>
+                <option value="Discover">Discover</option>
+                <option value="Paypal">Paypal</option>
+            </select> </p>
+
+        <p>Card Number:* <input type="text" name="Card Number"></p>
+        <p>Expiration Date(MM/YY):* <input type="text" name="Expiration Date(MM/YY):*"></p>
+        <button type="submit" placeholder="Submit Payment"> Submit Payment</button>
 
 </html>
