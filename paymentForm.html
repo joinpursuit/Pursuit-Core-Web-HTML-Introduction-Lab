@@ -6,6 +6,40 @@
     <body>
         <h1>Payment Form</h1>
         <p>Required forms are marked by an <u>*</u></p>
+        <h3>Contact Information</h3>
         <input type="radio" name = "prefix" value ="Mr.">Mr.<br>
+        <input type="radio" name = "prefix" value ="Ms.">Ms.<br>
+        <input type="radio" name = "prefix" value ="Mrs.">Mrs.<br>
+        <input type="radio" name = "prefix" value ="Mx.">Mx.<br>
+        <br>
+        <form>
+                Name:*
+                <input type="text" name="name">
+                <br>
+                <br>
+                Email:*
+                <input type="text" name="email">
+              </form>
+        <br>
+        <h3> Payment Information </h3>
+        <label>Card Type</label>
+        <select name= "Card Type" >
+                <option value="visa">Visa</option>
+                <option value="master">Master</option>
+                <option value="discover">Discover</option>
+                <option value="amex">Amex</option>
+              </select>
+        <br>
+        <br>
+        <form>
+                Card Number:*
+                <input type="text" name="card number">
+                <br>
+                <br>
+                Expiration Date (MM/YY):*
+                <input type="text" name="date">
+              </form>
+        <br>
+        <button type="button">Submit Payment</button>
     </body>
 </html>
