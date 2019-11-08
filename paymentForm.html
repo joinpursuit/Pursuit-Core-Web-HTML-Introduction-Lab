@@ -1,22 +1,51 @@
 <!DOCTYPE html>
-    <head>
-        <title>
-                paymentForm.html
-        </title>
-    </head>
-<body>
-    <h1>
-        <strong>Payment Form</strong>
-    </h1>
-        <p>Required fields are marked by <u>*</u></p>
-    <h3>
-        <strong>Contact Information</strong>
-    </h3>
-            <input type ='radio' value =“Mr”> Mr.<br>
-            <input type = 'radio' value =“Ms”> Ms.<br>
-            <input type = 'radio' value =“Mrs”> Mrs.<br>
-            <input type = 'radio' value =“Mrx”> Mrx.<br>
+<html>
+  <header>
+    <title>Payment Form</title>
+  </header>
+  <body>
+    <h1>Payment Form</h1>
+    <p>Required fields are marked with <u> * </u></p>
+    <h2>Contact information</h2>
+
+<input type = "radio" name = "gender" value = "Mr"> Mr. <br>
+<input type = "radio" name = "gender" value = "Ms"> Ms. <br>
+<input type = "radio" name = "gender" value = "Mrs"> Mrs. <br>
+<input type = "radio" name = "gender" value = "Mx"> Mx. <br>
+
+<p></p>
 
 
-</body>
+      <label for="name">Name:*</label>
+      <input type="" name="" value="">
+      </p>
+    <p>
+      <label for="email">Email:*</label>
+      <input type="" name="" value="">
+    </p>
+
+    <h2>Payment information</h2>
+    <p>Card Type:
+      <select class="" name="">
+        <option value="">Visa</option>
+        <option value="">Discover</option>
+        <option value="">American Express</option>
+        <option value="">Master Card</option>
+        <option value="">Paypal</option>
+
+      </select>
+</p>
+<p></p>
+        <p>
+          <label for="number">Card Number:*</label>
+          <input type="" name="" value="">
+        </p>
+        <p>
+          <label for="exp">Expiration Date(MM/YY):*</label>
+          <input type="" name="" value="">
+        </p>
+        <p>
+          <input type="submit" name="Submit Payment" value="Submit Payment">
+        </p>
+  </body>
 </html>
