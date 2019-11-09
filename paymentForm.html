@@ -1,0 +1,48 @@
+
+<!-- # Question Three
+
+Make a file `paymentForm.html` that displays a form to enter payment information.  It should like similar to this:
+
+![paymentFromImage](https://github.com/joinpursuit/Pursuit-Core-Web-HTML-Introduction-Lab/blob/master/images/paymentForm.png)
+
+Make sure to include the following elements:
+
+1. Underlining text
+2. Radio buttons
+3. Text input fields
+4. A text dropdown field
+5. A submit button -->
+
+<form><h1><strong>Payment Form</strong></h1>
+
+    <p>Required fields are marked by *</P>
+    
+    <p><strong>Contact Information</strong></p>
+    
+    
+      <input type="radio" name="Greeting" value="Mr."> Mr.<br>
+      <input type="radio" name="Greeting" value="Ms."> Ms.<br>
+      <input type="radio" name="Greeting" value="Mrs."> Mrs.<br>
+      <input type="radio" name="Greeting" value="Mx."> Mx.
+    
+    
+    <p>Name:* <input type=""></p>
+    
+    <p>Email:* <input type=""></p>
+    
+    <p><strong>Payment Information</strong></p>
+    
+    <p>
+    <label>Card Type:</label>
+    <select id = "cardList">
+    <option value = "Visa">Visa</option>
+    <option value = "Master Card">Master Card</option>
+    <option value = "American Express">American Express</option>
+    </select></p>
+              
+    <p>Card Number:* <input type=""></p>
+    
+    <p>Expiration Date (MM/YY):* <input type=""></p>
+    
+      <input type="text" name="Submit" placeholder="Submit Payment"></form><br>
+    
