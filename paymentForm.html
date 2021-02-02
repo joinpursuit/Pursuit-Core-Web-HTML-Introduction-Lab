@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Lab Question three</title>
+    </head>
+    <body>
+        <h1>Payment Form</h1>
+
+        <p>Required fields are marked by *</p>
+        <h2>Contact Information</h2>
+        <form>
+            <input type="radio" name="prefix" value="Mr." checked> Mr.<br>
+            <input type="radio" name="prefix" value="Ms."> Ms.<br>
+            <input type="radio" name="prefix" value="Mrs."> Mrs.<br>
+            <input type="radio" name="prefix" value="Mx."> Mx.   <br><br>
+
+            Name:* <input type="text" name="name" placeholder="Name" required> <br> <br>
+            Email:* <input type="email" name="email" placeholder="Email" required>
+        
+       
+        
+
+        <h2>Payment Information </h2>
+        <label for="card">Card Type:</label>
+
+        <select name="card" id="cards">
+        <option value="visa">Visa</option>
+        <option value="mastercard">Mastercard</option>
+        <option value="americanExpress">American Express</option>
+        <option value="discover">Discover</option>
+        </select>
+        <br><br>
+
+        Card Number:* <input type="tel" placeholder="xxxx xxxx xxxx xxxx" required> <br><br>
+        Expiration Date (MM/YY):* <input type="text" placeholder="mm/yy" required> 
+        <br><br>
+        <button type="submit">Submit Payment</button>
+
+
+    </form>
+       
+    </body>
+</html>
