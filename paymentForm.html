@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<body>
+    <h1>Payment Form</h1>
+    <p>Required fields are marked by *</p>
+    <h2>Contact Information</h2>
+    <form>
+        
+        <input type="radio" id="Mr." name="gender" value="Mr." checked>
+        <label for="Mr.">Mr.</label><br>
+        <input type="radio" id="Ms." name="gender" value="Ms.">
+        <label for="Ms.">Ms.</label><br>
+        <input type="radio" id="Mrs." name="gender" value="Mrs.">
+        <label for="Mrs.">Mrs.</label><br>
+        <input type="radio" id="Mx." name="gender" value="Mx.">
+        <label for="Mx.">Mx.</label>
+    <br>
+    Name:*<input type="text" placeholder="Name" required>
+      <br><br>
+    Email:*<input type="email" placeholder="Email" required>
+        
+<h2>Payment Information</h2>
+
+    <label>Card Type:</label>
+    <select id="Card" name="Card">
+        <option value= "visa">Visa</option>
+        <option value= "mastercard">Mastercard</option>
+        <option value= "americanExpress">American Express</option>
+        <option value= "discover">Discover</option>
+    </select>
+    <br><br>
+    <label>Card Number:*</label>
+    <input type="tel" placeholder="xxxx xxxx xxxx xxxx" required>
+    <br><br>
+    <label>Expiration Date (mm/yy):*</label>
+    <input type="text" placeholder="mm/yy" required>
+    <br><br>
+        <button type="submit">Submit Payment</button>
+    </form>
+</body>
+</html>
