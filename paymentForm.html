@@ -15,25 +15,22 @@
         <input type="radio" name="prefix" value="Mrs.">Mrs.<br/>
         <input type="radio" name="prefix" value="Mx.">Mx.<br/>
         <br/>
-        Name:* <input type="text" placeholder="Name"><br/>
+        Name:* <input type="text" name="name" placeholder="Name" required><br/>
         <br/>
-        Email:* <input type="text" placeholder="Email"></br>
+        Email:* <input type="email" name="email" placeholder="Email" required></br>
         <h2>Payment Information</h2>
         Card Type:* <select name="credit cards" id="card-select">
-        <option value="Visa">Visa</option>
-        <option value="Mastercard">Mastercard</option>
-        <option value="AMEX">AMEX</option>
-        <option value="Discovery">Discovery</option>
+        <option value="visa">Visa</option>
+        <option value="mastercard">Mastercard</option>
+        <option value="americanExpress">American Express</option>
+        <option value="discover">Discover</option>
     </select><br/>
     <br/>
-        Card Number:* <input type="text"></br>
+        Card Number:* <input type="tel" placeholder="xxxx xxxx xxxx xxxx" required></br>
         <br/>
-        Expiration Date (MM/YY):* <input type="text">
+        Expiration Date (MM/YY):* <input type="text" placeholder="mm/yy" required><br/>
+        <button type="submit">Submit Payment</button>
     </form></br>
-
-    
-
-    <button type="submit">Submit Payment</button>
 
 </body>
 </html>
