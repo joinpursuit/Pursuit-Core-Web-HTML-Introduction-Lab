@@ -2,24 +2,25 @@
 
 # HTML Introduction Lab
 
-Let's get familiar with some of the more common and basic tages of HTML. 
+Let's get familiar with some of the more common and basic tages of HTML.
 
-___
+---
 
-## Getting Started 
-* Fork this repo
-* Clone the forked repository
-* `cd` to the directory where you cloned it
-* `npm install` to install dependencies
-* `npm test` to run the tests
+## Getting Started
 
-> *Note*: Remember to `git add`, `git commit` and `git push` regularly
+- Fork this repo
+- Clone the forked repository
+- `cd` to the directory where you cloned it
+- `npm install` to install dependencies
+- `npm test` to run the tests
+
+> _Note_: Remember to `git add`, `git commit` and `git push` regularly
 
 ## Submission Guidelines
-  * When finished, commit and push your work.
-  * Make a pull request on github.`
-  * Submit the link to your pull request on Canvas. 
 
+- When finished, commit and push your work.
+- Make a pull request on github.`
+- Submit the link to your pull request on Canvas.
 
 # Before you start
 
@@ -34,49 +35,27 @@ Read [Testing Websites with Cypress](./cypress_intro.md) to get an understanding
 Create a file named `sundial.html`.
 
 In the file you are going to copy and paste the Sundial text below into your html file.
+
 ```html
-Sundial
-
-From Wikipedia, the free encyclopedia.
-
-
-A sundial measures time by the position of the sun. The most commonly seen designs, such as the
-'ordinary' or standard garden sundial, cast a shadow on a flat surface marked with the hours of
-the day. As the position of the sun changes, the time indicated by the shadow changes. However,
-sundials can be designed for any surface where a fixed object casts a predictable shadow.
-
-Most sundial designs indicate apparent solar time. Minor design variations can measure standard and daylight saving time, as well.
-
-History
-
-Sundials in the form of obelisks (3500 BC) and shadow clocks (1500 BC) are known from ancient
-Egypt, and were developed further by other cultures, including the Chinese, Greek, and Roman
-cultures. A type of sundial without gnomon is described in the old Old Testament
-(Isaiah 38:2).
-
-The mathematician and astronomer Theodosius of Bithynia (ca. 160 BC-ca. 100 BC) is said to have
-invented a universal sundial that could be used anywhere on Earth. The French astronomer Oronce Fine constructed a sundial of ivory in 1524. The Italian astronomer Giovanni Padovani published a treatise on the sundial in 1570, in which he included instructions for the manufacture and laying out of mural (vertical) and horizontal sundials. Giuseppe Biancani's Construction instrumenti ad horologia solaria discusses how to make a perfect sundial, with accompanying illustrations.
-
-Installation of standard sundials
-
-Many ornamental sundials are designed to be used at 45 degrees north. By tilting such a sundial, it may be installed so that it will keep time. However, some mass-produced garden sundials are inaccurate because of poor design and cannot be corrected.
+Sundial From Wikipedia, the free encyclopedia. A sundial measures time by the position of the sun. The most commonly seen designs, such as the 'ordinary' or standard garden sundial, cast a shadow on a flat surface marked with the hours of the day. As the position of the sun changes, the time indicated by the shadow changes. However, sundials can be designed for any surface where a fixed object casts a predictable shadow. Most sundial designs indicate apparent solar time. Minor design variations can measure standard and daylight saving time, as well. History Sundials in the form of obelisks (3500 BC) and shadow clocks (1500 BC) are known from ancient Egypt, and were developed further by other cultures, including the Chinese, Greek, and Roman cultures. A type of sundial without gnomon is
+described in the old Old Testament (Isaiah 38:2). The mathematician and astronomer Theodosius of Bithynia (ca. 160 BC-ca. 100 BC) is said to have invented a universal sundial that could be used anywhere on Earth. The French astronomer Oronce Fine constructed a sundial of ivory in 1524. The Italian astronomer Giovanni Padovani published a treatise on the sundial in 1570, in which he included instructions for the manufacture and laying out of mural (vertical) and horizontal sundials. Giuseppe Biancani's Construction instrumenti ad horologia solaria discusses how to make a perfect sundial, with accompanying illustrations. Installation of standard sundials Many ornamental sundials are designed to be used at 45 degrees north. By tilting such a sundial, it may be installed so that it will keep
+time. However, some mass-produced garden sundials are inaccurate because of poor design and cannot be corrected.
 ```
 
 Now double click the file to open it in your browser and you'll see it doesn't look like the example image below. This is because you haven't added any HTML tags to your code, so the browser renders your text exactly as is.
 
 [![Html challenge1.png](https://upload.wikimedia.org/wikiversity/en/3/3d/Html_challenge1.png)](https://en.wikiversity.org/wiki/File:Html_challenge1.png#/media/File:Html_challenge1.png)
-*By Michael Nelson - screenshot on ubuntu linux, [CC BY-SA 2.5](http://creativecommons.org/licenses/by-sa/2.5 "Creative Commons Attribution 2.5")*
+_By Michael Nelson - screenshot on ubuntu linux, [CC BY-SA 2.5](http://creativecommons.org/licenses/by-sa/2.5 'Creative Commons Attribution 2.5')_
 
 Your challenge will be to add HTML tags to make your file look like the one in the image:
 
-* headings (`<h1>`, `<h2>`, `<h3>` etc.)
-* paragraphs (`<p>`)
-* emphasis and strong (`<em>` and `<strong>`)
-
+- headings (`<h1>`, `<h2>`, `<h3>` etc.)
+- paragraphs (`<p>`)
+- emphasis and strong (`<em>` and `<strong>`)
 
 A web browser will display the `h1` heading very large, and the `h6` heading quite small, and all the other headings in between! But don't get into the habit of selecting an h4 heading just because it's the size you want! You can always modify the size of your elements using your stylesheet (more on that later).
 
-The key is to use the headings to structure your information in a useful (and meaningful) way! For example, every page should only ever have one main heading - your h1 heading. An h2 heading should only ever be a sub-heading of your h1 heading. Similarly, an h3 heading should only ever be a sub-heading of an h2 heading etc.
+The key is to use the headings to structure your information in a useful (and meaningful) way! For example, every page should only ever have one main heading - your h1 heading. An h2 heading should only ever be a sub-heading of your h1 heading. Similarly, an h3 heading should only ever be a sub-heading of an h2 heading etc.np
 
 # Question Two
 
@@ -94,7 +73,7 @@ Include the following:
 
 # Question Three
 
-Make a file `paymentForm.html` that displays a form to enter payment information.  It should like similar to this:
+Make a file `paymentForm.html` that displays a form to enter payment information. It should like similar to this:
 
 ![paymentFromImage](./images/paymentForm.png)
 
