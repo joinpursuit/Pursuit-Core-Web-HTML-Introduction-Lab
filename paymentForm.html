@@ -6,20 +6,40 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Payment Form</h1>
+    <h1 style="text-align: center;">Payment Form</h1>
     <p>Required fields are marked by *</p>
     <h2>Contact Information</h2>
     <form action="">
-        <input type="radio">
+        <input type="radio" name="title"checked>
         <label>Mr.</label><br>
-        <input type="radio">
+        <input type="radio" name="title">
         <label>Ms.</label><br>
-        <input type="radio">
+        <input type="radio" name="title">
         <label>Mrs.</label><br>
-        <input type="radio">
+        <input type="radio" name="title">
         <label>Mx.</label><br>
-        <p>Name:*</p>
-        <p>Email:*</p>
+        <label><br>Name:* </label>
+        <input type="text" placeholder="Name" required><br>
+        <label><br> Email:*</label> 
+        <input type="email" placeholder="Email" required><br>
+
+        <h2>Payment Information</h2>
+        <label for="myCard">Card Type:</label>
+        <select name="myCard" id="myCard">
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="americanExpress">American Express</option>
+            <option value="discover">Discover</option>
+        </select>
+        <br></br>
+        <label for="cardNumber">Card Number:*</label>
+        <input type="tel" name="Number" placeholder="xxxx xxxx xxxx xxxx" required>
+        <br></br>
+        <label for="expiration">Expiration Date (MM/YY):*</label>
+        <input type="text" name="Date" placeholder="mm/yy" required>
+        <br></br>
+        <button type="submit">Submit Payment</button>
     </form>
+    
 </body>
 </html>
