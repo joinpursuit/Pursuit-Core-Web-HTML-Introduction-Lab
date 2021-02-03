@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<form>
+
+    <h1>Payment Form </h1>
+
+    <p>Required fields are marked by <u>*</u></p>
+
+    <h2>Contact Information</h2>
+
+    <input type="radio" name="Mr." value="Mr." checked> Mr.<br>
+    <input type="radio" name="Ms." value="Ms."> Ms.<br>
+    <input type="radio" name="Mrs." value="Mrs."> Mrs.<br>
+    <input type="radio" name="Mx." value="Mx."> Mx.<br>
+    <br>
+
+    Name:*<input type="text" name="Name" placeholder='Name' required><br><br>
+    Email:*<input type="email" name="Email" placeholder='Email' required><br>
+
+    <h2>Payment Information</h2>
+    <label for="Card type">Card type:</label>
+    <select name="card type" id="cards">
+        <option value="visa">Visa</option>
+        <option value="mastercard">Mastercard</option>
+        <option value="americanExpress">American Express</option>
+        <option value="discover">Discover</option>
+    </select><br><br>
+
+    Credit Card:*<input type="tel" name="Card Number" placeholder='xxxx xxxx xxxx xxxx' required><br><br>
+    Expiration date(MM/YY):*<input type="text" name="Expiration Date" placeholder="mm/yy" required><br><br>
+    <input type="submit" value='Submit Payment'>
+
+</form>
+
+</html>
