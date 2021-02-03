@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Payment Form</h1>
+    <hr>
+    <p>Required fields are marked by <u>*</u></p>
+      <form>
+        <h2>Contact Information</h2>
+            <input type="radio" name="refer" value="mr" checked> Mr.<br>
+            <input type="radio" name="refer" value="ms"> Ms.<br>
+            <input type="radio" name="refer" value="mrs"> Mrs. <br>
+            <input type="radio" name="refer" value="mx"> Mx. <br>
+             Name:* <br>
+            <input type="text" name = "name" placeholder="Name" required><br>
+             Email:* <br>
+            <input type="email" name = "email" placeholder="Email" required><br>
+        <h2>Payment Information</h2>
+            Card Type: <br>
+            <select>
+                <option value = "visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="americanExpress">American Express</option>
+                <option value="discover">Discover</option>
+            </select>
+            Card Number: <br>
+            <input type="tel" name = "cardType" placeholder='xxxx xxxx xxxx xxxx' required><br>
+            Expiration Date(MM/YY): <br>
+            <input type="text" name = "expirationDate" placeholder='mm/yy' required><br>
+            <input type="submit" value="Submit Payment">
+
+    </form>
+</body>
+</html>
