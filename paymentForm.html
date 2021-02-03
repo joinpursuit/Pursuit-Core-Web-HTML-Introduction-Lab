@@ -2,53 +2,46 @@
 
 <html>
 <h1>Payment Form</h1>
-<p>Required fields are remarked by *</p>
+<p>Required fields are marked by *</p>
 <h2>Contact Information</h2>
 <body>
 <form action="">
     <div>
-    <input  type='radio' placeholder="Mr." id="">
-    <label for="Mr.">Mr.</label>
-    <br>
-    <input type='radio' name="Ms." id="">
-    <label for name="Ms.">Ms.</label>
-    <br>
-    <input type='radio' name ="Mrs." id="">
-    <label for="Miss">Mrs.</label>
-    <br>
-    <input type='radio' name="Mx."id="" >  
-    <label for="Misses">Mx.</label>    
+    <input  type='radio' name="Mr." value="Mr." checked>Mr.<br>
+    <input type='radio' name="Ms." value="Ms.">Ms.<br>
+    <input type='radio' name ="Mrs." value="Mrs.">Mrs.<br>
+    <input type='radio' name="Mx." value="Mx." >Mx.<br>   
 
     </div>
 
         <label>First name:*</label>
-        <input type = "text" placeholder="name"> 
+        <input type = "text" placeholder="Name" required> 
 
         <br>
 
         <label>Email:*</label>
-        <input type="text" placeholder="email">
+        <input type="email" placeholder="Email" required>
    
     <h2>Payment Information</h2>
     
         <label for="Card">Card Type:</label> 
         <select id="Card">
-        <option value="Visa">Visa</option>
-        <option value="MasterCard">MasterCard</option>
-        <option value="Discover">Discover</option>
-        <option value="Amex">Amex</option>
+        <option value="visa">Visa</option>
+        <option value="mastercard">Mastercard</option>
+        <option value="americanExpress">American Express</option>
+        <option value="discover">Discover</option>
 
         </select>
 
         <br>
 
         <label>Card Number:*</label>
-        <input type="text" >
+        <input type="tel" placeholder="xxxx xxxx xxxx xxxx" required >
         <br>
-        <label>Expiration Date (MM/YY):*</label>
-        <input type="number">
+        <label>Expiration Date (mm/yy):*</label>
+        <input type="text" placeholder="mm/yy" required>
         <br>
-        <input type="sumbit" value="Submit Payment">
+        <button type="submit">Submit Payment</button> 
     </form>
 </body>
 </html>
