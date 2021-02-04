@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<body style="font-family: 'Times New Roman', Times, serif;">
+    <form>
+        <h1>Payment Form</h1>
+        <p>Required fields are marked by <u>*</u></p>
+        <h2>Contact Information</h2>
+        <input type="radio" name="prefix" value="mr" checked>
+        <label for="mr">Mr.</label>
+        <br>
+        <input type="radio" name="prefix" value="ms">
+        <label for="ms">Ms.</label>
+        <br>
+        <input type="radio" name="prefix" value="mrs">
+        <label for="mrs">Mrs.</label>
+        <br>
+        <input type="radio" name="prefix" value="mx">
+        <label for="mx">Mx.</label>
+        <br><br>
+
+        <label for="name">Name:*</label>
+        <input type="text" name="Name" placeholder="Name" required>
+        <br><br>
+        <label for="email">Email:*</label>
+        <input type="email" name="Email" placeholder="Email" required>
+        <br><br>
+        <h2>Payment Information</h2>
+        <label for="cardType">Card Type:</label>
+        <select name="cardType">
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="americanExpress">American Express</option>
+            <option value="discover">Discover</option>
+        </select>
+        <br><br>
+        <label for="cardNumber">Card Number:*</label>
+        <input type="tel" name="cardNumber" placeholder="xxxx xxxx xxxx xxxx" required>
+        <br><br>
+        <label for="expirationDate">Expiration Date:*</label>
+        <input type="text" name="expirationDate" placeholder="mm/yy" required>
+        <br><br>
+        <input type="submit" value="Submit Payment">
+    </form>
+</body>
+</html>
