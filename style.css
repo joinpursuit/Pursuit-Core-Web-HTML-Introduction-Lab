@@ -17,12 +17,21 @@ body {
     color: rgb(215, 210, 210);
 }
 
-.sundial #sundialCompass {
+.sunny {
     float: left;
     width: 300px;
+    animation-name: slide;
+    animation-duration: 3s;
 }
 
 .sundial h2 {
     text-align: center;
     color: rgb(215, 210, 210);
 }
+
+ /* Keyframes */
+
+ @keyframes slide {
+     from {transform: translateY(-100px)}
+     to {transform: translateY(-1)}
+ }
