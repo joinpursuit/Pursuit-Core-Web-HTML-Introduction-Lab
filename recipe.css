@@ -1,0 +1,42 @@
+body {
+    background-image: url(images/pexels-photo-164005.jpeg)
+}
+
+.recipe h1 {
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    color: #e1dddd;
+}
+
+.recipe h2 {
+    font-family: 'Lobster Two', cursive;
+    color: #e1dddd;
+}
+
+.recipe p {
+    color: rgb(103, 51, 123)
+}
+
+.recipe li{
+    color: rgb(3, 3, 3)
+}
+
+#pbj {
+    padding: 20px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 15px 50px 30px;
+}
+
+.recipe a:link {
+    color: #e1dddd;
+}
+
+.recipe a:hover {
+    color: rgb(103, 51, 123)
+}
+
+.recipe a:visited {
+    color: rgb(3, 3, 3)
+}
