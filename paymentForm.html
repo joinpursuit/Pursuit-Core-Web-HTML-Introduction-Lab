@@ -28,12 +28,22 @@
         <h2>Payment Information</h2>
 
         <label for="Card Type">Card Type:</label>
-        <input type="text" placeholder="Name" ><br>
-        <label for="Card Number">Card Number:*</label>
-        <input type="tel" placeholder='xxxx xxxx xxxx xxxx' required><br>
-        <label for= "Expiration Date"  >Expiration Date (MM/YY):*</label>
-        <input type="text" placeholder="mm/yy" required><br>
-        <input type="submit" value="Submit Payment">
+
+        <select name="Card Type" placeholder="Name"><br>
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="americanExpress">American Express</option>
+            <option value="discover">Discover</option>
+
+
+
+
+
+            <label for="Card Number">Card Number:*</label>
+            <input type="tel" placeholder='xxxx xxxx xxxx xxxx' required><br>
+            <label for="Expiration Date">Expiration Date (MM/YY):*</label>
+            <input type="text" placeholder="mm/yy" required><br>
+            <input type="submit" value="Submit Payment">
     </form>
 </body>
 
