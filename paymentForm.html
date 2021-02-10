@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width">
+    <title>Payment Form</title>
+</head>
+<body>
+
+    <h1>Payment Form</h1>
+    
+    <p>Required fields are marked by *</p>
+
+    <h2>Contact Information</h2>
+    
+    <form>
+        <input type="radio" name= "prefix" value="Mr."checked>Mr.<br>
+        <input type="radio" name="prefix" value="Ms.">Ms.<br>
+        <input type="radio" name="prefix" value="Mrs.">Mrs.<br>
+        <input type="radio" name="prefix" value="Mrs.">Mx.<br>
+
+        Name:*  <input type="text" name="Name" placeholder="Name"required><br>
+        
+
+        Email:*  <input type='text' name='Email' placeholder='Email'required>
+    
+
+        <h3>Payment Information</h3>
+
+        
+        Card Type:
+        <select>
+            <option>Mastercard</option>
+            <option>American Express</option>
+            <option>Discover</option>
+        </select>
+       
+        Card Number:  <input type="tel" name="CardNum" placeholder="xxxx xxxx xxxx xxxx"><br>
+        
+
+        Expiration Date:  <input type="text" name="expDate" placeholder="mm/yy"><br>
+        
+        
+            <input type="submit" value="Submit Payment">
+        
+    </form>
+
+
+
+
+
+</body>
+
+
+</html>
