@@ -1,30 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Form</title>
+  </head>
+  <body>
     <h1>Payment Form</h1>
-    <p>Required fields are marked by *</p>
-    <h2>Contact Information</h2>
-    <form>
-        <input type="radio" name="Prefix" value="Mr."> Mr.<br>
-        <input type="radio" name="Prefix" value="Mrs."> Mrs.<br>
-        <input type="radio" name="Prefix" value="Ms."> Ms. <br>
-        <input type="radio" name="Prefix" value="Mx."> Mx.<br>
-        <label for="Name">First name:</label>
-           <input type="text" id="fname" name="fname"><br><br>
-        Email:*<br>
-        <input type="text" name="Email" placeholder="Example@email.com" >
-      </form>
-      <h2> Payment infromation</h2>
-      <select name="cars" id="cars">
-        <option value="volvo">Volvo</option>
-        <option value="saab">Saab</option>
-        <option value="mercedes">Mercedes</option>
-        <option value="audi">Audi</option>
+    <form action="">
+      <p>Required fields are marked by <u>*</u></p>
+      <h2>Contact Information</h2>
+      <input type="radio" name="contact" checked id="" />Mr.
+      <br />
+      <input type="radio" name="contact" id="" />Ms.
+      <br />
+      <input type="radio" name="contact" id="" />Mrs.
+      <br />
+      <input type="radio" name="contact" id="" />Mx.
+      <br />
+      Name:* <input type="text" placeholder="Name" required="required" />
+      <br />
+      <br />
+      Email:* <input type="email" placeholder="Email" required="required" />
+      <h2>Payment Information</h2>
+      Card Type:
+      <select name="" id="">
+        <option value="visa">Visa</option>
+        <option value="mastercard">Mastercard</option>
+        <option value="americanExpress">American Express</option>
+        <option value="discover">Discover</option>
       </select>
-</body>
+      <br />
+      <br />
+      Card Number:*
+      <input type="tel" placeholder="xxxx xxxx xxxx xxxx" required="required" />
+      <br />
+      <br />
+      Expiration Date (MM/YY):*
+      <input type="text" placeholder="mm/yy" required="required" />
+      <br />
+      <br />
+      <input type="submit" value="Submit Payment" />
+    </form>
+  </body>
 </html>
