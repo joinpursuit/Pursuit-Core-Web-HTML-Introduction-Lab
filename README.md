@@ -2,11 +2,11 @@
 
 # HTML Introduction Lab
 
-Let's get familiar with some of the more common and basic tages of HTML. 
+Let's get familiar with some of the more common and basic tages of HTML.
 
 ___
 
-## Getting Started 
+## Getting Started
 * Fork this repo
 * Clone the forked repository
 * `cd` to the directory where you cloned it
@@ -18,7 +18,7 @@ ___
 ## Submission Guidelines
   * When finished, commit and push your work.
   * Make a pull request on github.`
-  * Submit the link to your pull request on Canvas. 
+  * Submit the link to your pull request on Canvas.
 
 
 # Before you start
@@ -94,7 +94,7 @@ Include the following:
 
 # Question Three
 
-Make a file `paymentForm.html` that displays a form to enter payment information.  It should like similar to this:
+Make a file `paymentForm.html` that displays a form to enter payment information.  It should look similar to this:
 
 ![paymentFromImage](./images/paymentForm.png)
 
